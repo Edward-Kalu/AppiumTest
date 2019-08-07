@@ -1,0 +1,354 @@
+2019-08-05 11:15:39:304 [Appium] Welcome to Appium v1.13.0
+2019-08-05 11:15:39:307 [Appium] Non-default server args:
+2019-08-05 11:15:39:308 [Appium]   logFile: C:\Users\EdwardKalu\appiumStuffs\AppiumTesting\src\test\resources\logs\drag&dropLog.txt
+2019-08-05 11:15:39:308 [Appium]   localTimezone: true
+2019-08-05 11:15:39:544 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-08-05 11:15:39:774 [HTTP] --> GET /wd/hub/status
+2019-08-05 11:15:39:776 [HTTP] {}
+2019-08-05 11:15:39:777 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-08-05 11:15:39:778 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.13.0"}}
+2019-08-05 11:15:39:785 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2019-08-05 11:15:39:785 [HTTP] 
+2019-08-05 11:15:42:759 [HTTP] --> POST /wd/hub/session
+2019-08-05 11:15:42:759 [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\EdwardKalu\\appiumStuffs\\AppiumTesting\\.\\app\\Drag Sort Demos_v0.5.0_apkpure.com.apk","platformName":"Android","deviceName":"Android"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\EdwardKalu\\appiumStuffs\\AppiumTesting\\.\\app\\Drag Sort Demos_v0.5.0_apkpure.com.apk","appium:deviceName":"Android","platformName":"android"}]}}
+2019-08-05 11:15:42:760 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\EdwardKalu\\appiumStuffs\\AppiumTesting\\.\\app\\Drag Sort Demos_v0.5.0_apkpure.com.apk","platformName":"Android","deviceName":"Android"},null,{"firstMatch":[{"appium:app":"C:\\Users\\EdwardKalu\\appiumStuffs\\AppiumTesting\\.\\app\\Drag Sort Demos_v0.5.0_apkpure.com.apk","appium:deviceName":"Android","platformName":"android"}]}]
+2019-08-05 11:15:42:761 [BaseDriver] Event 'newSessionRequested' logged at 1565000142761 (11:15:42 GMT+0100 (GMT Summer Time))
+2019-08-05 11:15:42:772 [Appium] 
+2019-08-05 11:15:42:773 [Appium] ======================================================================
+2019-08-05 11:15:42:773 [Appium]   DEPRECATION WARNING:
+2019-08-05 11:15:42:773 [Appium] 
+2019-08-05 11:15:42:774 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-08-05 11:15:42:774 [Appium]   capabilities for this Android session
+2019-08-05 11:15:42:774 [Appium] 
+2019-08-05 11:15:42:774 [Appium]   Setting 'automationName=UiAutomator1' by default and using the 
+2019-08-05 11:15:42:774 [Appium]   UiAutomator1 Driver
+2019-08-05 11:15:42:774 [Appium] 
+2019-08-05 11:15:42:776 [Appium]   The next minor version of Appium (1.14.x) will set 
+2019-08-05 11:15:42:776 [Appium]   'automationName=UiAutomator2' by default and use the UiAutomator2 
+2019-08-05 11:15:42:776 [Appium]   Driver
+2019-08-05 11:15:42:777 [Appium] 
+2019-08-05 11:15:42:777 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-08-05 11:15:42:778 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-08-05 11:15:42:778 [Appium]   platforms
+2019-08-05 11:15:42:778 [Appium] 
+2019-08-05 11:15:42:778 [Appium]   If you are happy with 'UiAutomator1' and do not wish to upgrade 
+2019-08-05 11:15:42:778 [Appium]   Android drivers, please add 'automationName=UiAutomator1' to your 
+2019-08-05 11:15:42:778 [Appium]   desired capabilities
+2019-08-05 11:15:42:779 [Appium] 
+2019-08-05 11:15:42:779 [Appium]   For more information about drivers, please visit 
+2019-08-05 11:15:42:779 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-08-05 11:15:42:781 [Appium]   'Drivers' menu
+2019-08-05 11:15:42:781 [Appium] 
+2019-08-05 11:15:42:781 [Appium] ======================================================================
+2019-08-05 11:15:42:782 [Appium] 
+2019-08-05 11:15:42:782 [Appium] Setting automation to 'UiAutomator1'. 
+2019-08-05 11:15:44:502 [Appium] Appium v1.13.0 creating new AndroidDriver (v4.15.1) session
+2019-08-05 11:15:44:503 [Appium] Capabilities:
+2019-08-05 11:15:44:503 [Appium]   platformName: android
+2019-08-05 11:15:44:503 [Appium]   app: C:\Users\EdwardKalu\appiumStuffs\AppiumTesting\.\app\Drag Sort Demos_v0.5.0_apkpure.com.apk
+2019-08-05 11:15:44:503 [Appium]   deviceName: Android
+2019-08-05 11:15:44:506 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"C:\\Users\\EdwardKa... were provided
+2019-08-05 11:15:44:507 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-08-05 11:15:44:514 [BaseDriver] Session created with session id: c718cf95-50ab-40b3-9f35-f711da7383dc
+2019-08-05 11:15:44:541 [ADB] Found 1 'build-tools' folders under 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk' (newest first):
+2019-08-05 11:15:44:541 [ADB]     C:/Users/EdwardKalu/AppData/Local/Android/Sdk/build-tools/29.0.1
+2019-08-05 11:15:44:577 [ADB] Using 'adb.exe' from 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2019-08-05 11:15:44:580 [AndroidDriver] Retrieving device list
+2019-08-05 11:15:44:580 [ADB] Trying to find a connected android device
+2019-08-05 11:15:44:581 [ADB] Getting connected devices...
+2019-08-05 11:15:44:798 [ADB] 1 device(s) connected
+2019-08-05 11:15:44:798 [AndroidDriver] Using device: LGH340n731d6af9
+2019-08-05 11:15:44:804 [ADB] Using 'adb.exe' from 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2019-08-05 11:15:44:804 [ADB] Setting device id to LGH340n731d6af9
+2019-08-05 11:15:44:806 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell getprop ro.build.version.sdk'
+2019-08-05 11:15:44:934 [ADB] Current device property 'ro.build.version.sdk': 23
+2019-08-05 11:15:44:935 [ADB] Device API level: 23
+2019-08-05 11:15:44:935 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-08-05 11:15:44:939 [BaseDriver] Using local app 'C:\Users\EdwardKalu\appiumStuffs\AppiumTesting\.\app\Drag Sort Demos_v0.5.0_apkpure.com.apk'
+2019-08-05 11:15:44:944 [AndroidDriver] Checking whether app is actually present
+2019-08-05 11:15:44:944 [AndroidDriver] Starting Android session
+2019-08-05 11:15:44:946 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 wait-for-device'
+2019-08-05 11:15:44:986 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell echo ping'
+2019-08-05 11:15:45:055 [AndroidDriver] Pushing settings apk to device...
+2019-08-05 11:15:45:056 [ADB] Getting install status for io.appium.settings
+2019-08-05 11:15:45:057 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys package io.appium.settings'
+2019-08-05 11:15:45:208 [ADB] 'io.appium.settings' is installed
+2019-08-05 11:15:45:210 [ADB] Getting package info for 'io.appium.settings'
+2019-08-05 11:15:45:211 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys package io.appium.settings'
+2019-08-05 11:15:45:345 [ADB] Using 'aapt.exe' from 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\build-tools\29.0.1\aapt.exe'
+2019-08-05 11:15:45:446 [ADB] The version code of the installed 'io.appium.settings' is greater than the application version code (18 > 17)
+2019-08-05 11:15:45:446 [ADB] There is no need to install/upgrade 'C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2019-08-05 11:15:45:447 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-08-05 11:15:45:449 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell 'pgrep --help; echo $?''
+2019-08-05 11:15:45:559 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell pgrep -f io\\.appium\\.settings'
+2019-08-05 11:15:45:705 [AndroidDriver] Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+2019-08-05 11:15:45:706 [ADB] Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+2019-08-05 11:15:45:707 [ADB] Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+2019-08-05 11:15:45:708 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+2019-08-05 11:15:49:526 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-08-05 11:15:51:609 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell appops set io.appium.settings android\:mock_location allow'
+2019-08-05 11:15:53:208 [Logcat] Starting logcat capture
+2019-08-05 11:15:53:299 [ADB] Getting device platform version
+2019-08-05 11:15:53:299 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell getprop ro.build.version.release'
+2019-08-05 11:15:53:396 [ADB] Current device property 'ro.build.version.release': 6.0
+2019-08-05 11:15:53:398 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell wm size'
+2019-08-05 11:15:55:091 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell getprop ro.product.model'
+2019-08-05 11:15:55:177 [ADB] Current device property 'ro.product.model': LG-H340n
+2019-08-05 11:15:55:178 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell getprop ro.product.manufacturer'
+2019-08-05 11:15:55:268 [ADB] Current device property 'ro.product.manufacturer': LGE
+2019-08-05 11:15:55:269 [AndroidDriver] Parsing package and activity from app manifest
+2019-08-05 11:15:55:271 [ADB] Using the alternative activity name detection method because of: Could not find 'apkanalyzer.bat' in ["C:\\Users\\EdwardKalu\\AppData\\Local\\Android\\Sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\EdwardKalu\\AppData\\Local\\Android\\Sdk\\emulator\\apkanalyzer.bat","C:\\Users\\EdwardKalu\\AppData\\Local\\Android\\Sdk\\tools\\apkanalyzer.bat","C:\\Users\\EdwardKalu\\AppData\\Local\\Android\\Sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\EdwardKalu\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.1\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk'?
+2019-08-05 11:15:55:271 [ADB] Extracting package and launch activity from manifest
+2019-08-05 11:15:55:305 [ADB] Package name: 'com.mobeta.android.demodslv'
+2019-08-05 11:15:55:305 [ADB] Main activity name: 'com.mobeta.android.demodslv.Launcher'
+2019-08-05 11:15:55:305 [AndroidDriver] Parsed package and activity are: com.mobeta.android.demodslv/com.mobeta.android.demodslv.Launcher
+2019-08-05 11:15:55:306 [ADB] Getting install status for com.mobeta.android.demodslv
+2019-08-05 11:15:55:306 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys package com.mobeta.android.demodslv'
+2019-08-05 11:15:55:434 [ADB] 'com.mobeta.android.demodslv' is installed
+2019-08-05 11:15:55:441 [ADB] Getting install status for com.mobeta.android.demodslv
+2019-08-05 11:15:55:441 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys package com.mobeta.android.demodslv'
+2019-08-05 11:15:55:576 [ADB] 'com.mobeta.android.demodslv' is installed
+2019-08-05 11:15:55:577 [ADB] Getting package info for 'com.mobeta.android.demodslv'
+2019-08-05 11:15:55:578 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys package com.mobeta.android.demodslv'
+2019-08-05 11:15:55:801 [ADB] The version name of the installed 'com.mobeta.android.demodslv' is greater or equal to the application version name ('0.5.0' >= '0.5.0')
+2019-08-05 11:15:55:801 [ADB] There is no need to install/upgrade 'C:\Users\EdwardKalu\appiumStuffs\AppiumTesting\.\app\Drag Sort Demos_v0.5.0_apkpure.com.apk'
+2019-08-05 11:15:55:802 [AndroidDriver] Performing fast reset on 'com.mobeta.android.demodslv'
+2019-08-05 11:15:55:802 [ADB] Getting install status for com.mobeta.android.demodslv
+2019-08-05 11:15:55:803 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys package com.mobeta.android.demodslv'
+2019-08-05 11:15:55:903 [ADB] 'com.mobeta.android.demodslv' is installed
+2019-08-05 11:15:55:904 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell am force-stop com.mobeta.android.demodslv'
+2019-08-05 11:15:57:337 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell pm clear com.mobeta.android.demodslv'
+2019-08-05 11:15:58:710 [AndroidDriver] Performed fast reset on the installed 'com.mobeta.android.demodslv' application (stop and clear)
+2019-08-05 11:15:58:712 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell rm -rf /data/local/tmp/strings.json'
+2019-08-05 11:15:58:799 [AndroidDriver] Extracting strings from apk
+2019-08-05 11:15:58:799 [AndroidDriver] C:\Users\EdwardKalu\appiumStuffs\AppiumTesting\.\app\Drag Sort Demos_v0.5.0_apkpure.com.apk
+2019-08-05 11:15:58:800 [AndroidDriver] null
+2019-08-05 11:15:58:800 [AndroidDriver] C:\Users\EDWARD~1\AppData\Local\Temp\com.mobeta.android.demodslv
+2019-08-05 11:15:58:802 [ADB] Extracting strings from for language: default
+2019-08-05 11:15:58:825 [ADB] Successfully extracted 8 strings from 'C:\Users\EdwardKalu\appiumStuffs\AppiumTesting\.\app\Drag Sort Demos_v0.5.0_apkpure.com.apk' resources for '(default)' configuration
+2019-08-05 11:15:58:834 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell mkdir -p /data/local'
+2019-08-05 11:15:58:913 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 push C\:\\Users\\EDWARD~1\\AppData\\Local\\Temp\\com.mobeta.android.demodslv\\strings.json /data/local/tmp'
+2019-08-05 11:15:59:020 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-08-05 11:15:59:021 [ADB] Forwarding system: 4724 to device: 4724
+2019-08-05 11:15:59:021 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 forward tcp\:4724 tcp\:4724'
+2019-08-05 11:15:59:085 [UiAutomator] Starting UiAutomator
+2019-08-05 11:15:59:085 [UiAutomator] Moving to state 'starting'
+2019-08-05 11:15:59:086 [UiAutomator] Parsing uiautomator jar
+2019-08-05 11:15:59:087 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-08-05 11:15:59:087 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell mkdir -p /data/local'
+2019-08-05 11:15:59:226 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 push C\:\\Users\\EdwardKalu\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-08-05 11:15:59:386 [ADB] Attempting to kill all uiautomator processes
+2019-08-05 11:15:59:386 [ADB] Getting IDs of all 'uiautomator' processes
+2019-08-05 11:15:59:387 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell pgrep -f uiautomator'
+2019-08-05 11:15:59:513 [ADB] No 'uiautomator' process has been found
+2019-08-05 11:15:59:513 [UiAutomator] Starting UIAutomator
+2019-08-05 11:15:59:514 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","LGH340n731d6af9","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.mobeta.android.demodslv","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-08-05 11:16:01:550 [UiAutomator] Moving to state 'online'
+2019-08-05 11:16:01:560 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-08-05 11:16:01:562 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys window'
+2019-08-05 11:16:01:574 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-08-05 11:16:01:730 [AndroidDriver] Screen already unlocked, doing nothing
+2019-08-05 11:16:01:732 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell am start -W -n com.mobeta.android.demodslv/com.mobeta.android.demodslv.Launcher -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-08-05 11:16:04:634 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.mobeta.android.demodslv' and activity: 'com.mobeta.android.demodslv.Launcher' to be focused
+2019-08-05 11:16:04:635 [ADB] Possible activities, to be checked: 'com.mobeta.android.demodslv.Launcher', 'com.mobeta.android.demodslv.com.mobeta.android.demodslv.Launcher'
+2019-08-05 11:16:04:636 [ADB] Getting focused package and activity
+2019-08-05 11:16:04:636 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys window windows'
+2019-08-05 11:16:04:778 [ADB] Found package: 'com.mobeta.android.demodslv' and fully qualified activity name : 'com.mobeta.android.demodslv.Launcher'
+2019-08-05 11:16:04:780 [Appium] New AndroidDriver session created successfully, session c718cf95-50ab-40b3-9f35-f711da7383dc added to master session list
+2019-08-05 11:16:04:781 [BaseDriver] Event 'newSessionStarted' logged at 1565000164781 (11:16:04 GMT+0100 (GMT Summer Time))
+2019-08-05 11:16:04:782 [W3C (c718cf95)] Cached the protocol value 'W3C' for the new session c718cf95-50ab-40b3-9f35-f711da7383dc
+2019-08-05 11:16:04:783 [W3C (c718cf95)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"C:\\Users\\EdwardKalu\\appiumStuffs\\AppiumTesting\\.\\app\\Drag Sort Demos_v0.5.0_apkpure.com.apk","deviceName":"Android"},"platformName":"android","app":"C:\\Users\\EdwardKalu\\appiumStuffs\\AppiumTesting\\.\\app\\Drag Sort Demos_v0.5.0_apkpure.com.apk","deviceName":"LGH340n731d6af9","deviceUDID":"LGH340n731d6af9","platformVersion":"6.0","deviceScreenSize":"480x854","deviceModel":"LG-H340n","deviceManufacturer":"LGE","appPackage":"com.mobeta.android.demodslv","appWaitPackage":"com.mobeta.android.demodslv","appActivity":"com.mobeta.android.demodslv.Launcher","appWaitActivity":"com.mobeta.android.demodslv.Launcher"}}
+2019-08-05 11:16:04:786 [HTTP] <-- POST /wd/hub/session 200 22026 ms - 939
+2019-08-05 11:16:04:786 [HTTP] 
+2019-08-05 11:16:04:886 [HTTP] --> GET /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc
+2019-08-05 11:16:04:887 [HTTP] {}
+2019-08-05 11:16:04:888 [W3C (c718cf95)] Calling AppiumDriver.getSession() with args: ["c718cf95-50ab-40b3-9f35-f711da7383dc"]
+2019-08-05 11:16:04:931 [W3C (c718cf95)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"C:\\Users\\EdwardKalu\\appiumStuffs\\AppiumTesting\\.\\app\\Drag Sort Demos_v0.5.0_apkpure.com.apk","deviceName":"Android"},"platformName":"android","app":"C:\\Users\\EdwardKalu\\appiumStuffs\\AppiumTesting\\.\\app\\Drag Sort Demos_v0.5.0_apkpure.com.apk","deviceName":"LGH340n731d6af9","deviceUDID":"LGH340n731d6af9","platformVersion":"6.0","deviceScreenSize":"480x854","deviceModel":"LG-H340n","deviceManufacturer":"LGE","appPackage":"com.mobeta.android.demodslv","appWaitPackage":"com.mobeta.android.demodslv","appActivity":"com.mobeta.android.demodslv.Launcher","appWaitActivity":"com.mobeta.android.demodslv.Launcher"}
+2019-08-05 11:16:04:933 [HTTP] <-- GET /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc 200 46 ms - 871
+2019-08-05 11:16:04:934 [HTTP] 
+2019-08-05 11:16:04:941 [HTTP] --> GET /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc
+2019-08-05 11:16:04:941 [HTTP] {}
+2019-08-05 11:16:04:941 [W3C (c718cf95)] Calling AppiumDriver.getSession() with args: ["c718cf95-50ab-40b3-9f35-f711da7383dc"]
+2019-08-05 11:16:04:945 [W3C (c718cf95)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"C:\\Users\\EdwardKalu\\appiumStuffs\\AppiumTesting\\.\\app\\Drag Sort Demos_v0.5.0_apkpure.com.apk","deviceName":"Android"},"platformName":"android","app":"C:\\Users\\EdwardKalu\\appiumStuffs\\AppiumTesting\\.\\app\\Drag Sort Demos_v0.5.0_apkpure.com.apk","deviceName":"LGH340n731d6af9","deviceUDID":"LGH340n731d6af9","platformVersion":"6.0","deviceScreenSize":"480x854","deviceModel":"LG-H340n","deviceManufacturer":"LGE","appPackage":"com.mobeta.android.demodslv","appWaitPackage":"com.mobeta.android.demodslv","appActivity":"com.mobeta.android.demodslv.Launcher","appWaitActivity":"com.mobeta.android.demodslv.Launcher"}
+2019-08-05 11:16:04:947 [HTTP] <-- GET /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc 200 5 ms - 871
+2019-08-05 11:16:04:947 [HTTP] 
+2019-08-05 11:16:04:957 [HTTP] --> POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/timeouts
+2019-08-05 11:16:04:957 [HTTP] {"implicit":10000}
+2019-08-05 11:16:04:958 [W3C (c718cf95)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"c718cf95-50ab-40b3-9f35-f711da7383dc"]
+2019-08-05 11:16:04:960 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2019-08-05 11:16:04:961 [BaseDriver] Set implicit wait to 10000ms
+2019-08-05 11:16:04:962 [W3C (c718cf95)] Responding to client with driver.timeouts() result: null
+2019-08-05 11:16:04:964 [HTTP] <-- POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/timeouts 200 6 ms - 14
+2019-08-05 11:16:04:965 [HTTP] 
+2019-08-05 11:16:04:974 [HTTP] --> POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/elements
+2019-08-05 11:16:04:974 [HTTP] {"using":"id","value":"com.mobeta.android.demodslv:id/activity_title"}
+2019-08-05 11:16:04:976 [W3C (c718cf95)] Calling AppiumDriver.findElements() with args: ["id","com.mobeta.android.demodslv:id/activity_title","c718cf95-50ab-40b3-9f35-f711da7383dc"]
+2019-08-05 11:16:04:978 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-05 11:16:04:980 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-05 11:16:04:982 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobeta.android.demodslv:id/activity_title","context":"","multiple":true}}
+2019-08-05 11:16:04:991 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobeta.android.demodslv:id/activity_title","context":"","multiple":true}}
+2019-08-05 11:16:04:992 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:16:04:992 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:16:04:999 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.mobeta.android.demodslv:id/activity_title' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:16:04:999 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.mobeta.android.demodslv:id/activity_title]
+2019-08-05 11:16:05:001 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.mobeta.android.demodslv:id/activity_title]
+2019-08-05 11:16:05:008 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:16:05:008 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.mobeta.android.demodslv:id/activity_title]
+2019-08-05 11:16:05:019 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2019-08-05 11:16:05:027 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.mobeta.android.demodslv:id/activity_title]
+2019-08-05 11:16:05:036 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (2)
+2019-08-05 11:16:05:036 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=2, RESOURCE_ID=com.mobeta.android.demodslv:id/activity_title]
+2019-08-05 11:16:05:040 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (3)
+2019-08-05 11:16:05:040 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=3, RESOURCE_ID=com.mobeta.android.demodslv:id/activity_title]
+2019-08-05 11:16:05:053 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (4)
+2019-08-05 11:16:05:053 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=4, RESOURCE_ID=com.mobeta.android.demodslv:id/activity_title]
+2019-08-05 11:16:05:079 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (5)
+2019-08-05 11:16:05:079 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=5, RESOURCE_ID=com.mobeta.android.demodslv:id/activity_title]
+2019-08-05 11:16:05:088 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"},{"ELEMENT":"2"},{"ELEMENT":"3"},{"ELEMENT":"4"},{"ELEMENT":"5"}]}
+2019-08-05 11:16:05:090 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:16:05:091 [W3C (c718cf95)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"},{"element-6066-11e4-a52e-4f735466cecf":"2","ELEMENT":"2"},{"element-6066-11e4-a52e-4f735466cecf":"3","ELEMENT":"3"},{"element-6066-11e4-a52e-4f735466cecf":"4","ELEMENT":"4"},{"element-6066-11e4-a52e-4f735466cecf":"5","ELEMENT":"5"}]
+2019-08-05 11:16:05:092 [HTTP] <-- POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/elements 200 118 ms - 301
+2019-08-05 11:16:05:092 [HTTP] 
+2019-08-05 11:16:05:113 [HTTP] --> POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/element/1/click
+2019-08-05 11:16:05:113 [HTTP] {"id":"1"}
+2019-08-05 11:16:05:115 [W3C (c718cf95)] Calling AppiumDriver.click() with args: ["1","c718cf95-50ab-40b3-9f35-f711da7383dc"]
+2019-08-05 11:16:05:116 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-08-05 11:16:05:122 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-08-05 11:16:05:122 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:16:05:123 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-08-05 11:16:05:313 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-08-05 11:16:05:314 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:16:05:316 [W3C (c718cf95)] Responding to client with driver.click() result: true
+2019-08-05 11:16:05:317 [HTTP] <-- POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/element/1/click 200 204 ms - 14
+2019-08-05 11:16:05:318 [HTTP] 
+2019-08-05 11:16:05:322 [HTTP] --> POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/elements
+2019-08-05 11:16:05:322 [HTTP] {"using":"id","value":"com.mobeta.android.demodslv:id/drag_handle"}
+2019-08-05 11:16:05:323 [W3C (c718cf95)] Calling AppiumDriver.findElements() with args: ["id","com.mobeta.android.demodslv:id/drag_handle","c718cf95-50ab-40b3-9f35-f711da7383dc"]
+2019-08-05 11:16:05:325 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-05 11:16:05:325 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-05 11:16:05:326 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobeta.android.demodslv:id/drag_handle","context":"","multiple":true}}
+2019-08-05 11:16:05:334 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobeta.android.demodslv:id/drag_handle","context":"","multiple":true}}
+2019-08-05 11:16:05:335 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:16:05:335 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:16:05:337 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.mobeta.android.demodslv:id/drag_handle' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:16:05:337 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:05:338 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:05:338 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:16:05:339 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:083 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2019-08-05 11:16:06:084 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:109 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (2)
+2019-08-05 11:16:06:109 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=2, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:129 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (3)
+2019-08-05 11:16:06:130 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=3, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:150 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (4)
+2019-08-05 11:16:06:151 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=4, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:182 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (5)
+2019-08-05 11:16:06:182 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=5, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:202 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (6)
+2019-08-05 11:16:06:203 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=6, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:246 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (7)
+2019-08-05 11:16:06:246 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=7, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:261 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"6"},{"ELEMENT":"7"},{"ELEMENT":"8"},{"ELEMENT":"9"},{"ELEMENT":"10"},{"ELEMENT":"11"},{"ELEMENT":"12"}]}
+2019-08-05 11:16:06:261 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:16:06:262 [W3C (c718cf95)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"6","ELEMENT":"6"},{"element-6066-11e4-a52e-4f735466cecf":"7","ELEMENT":"7"},{"element-6066-11e4-a52e-4f735466cecf":"8","ELEMENT":"8"},{"element-6066-11e4-a52e-4f735466cecf":"9","ELEMENT":"9"},{"element-6066-11e4-a52e-4f735466cecf":"10","ELEMENT":"10"},{"element-6066-11e4-a52e-4f735466cecf":"11","ELEMENT":"11"},{"element-6066-11e4-a52e-4f735466cecf":"12","ELEMENT":"12"}]
+2019-08-05 11:16:06:266 [HTTP] <-- POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/elements 200 941 ms - 423
+2019-08-05 11:16:06:266 [HTTP] 
+2019-08-05 11:16:06:269 [HTTP] --> POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/elements
+2019-08-05 11:16:06:269 [HTTP] {"using":"id","value":"com.mobeta.android.demodslv:id/drag_handle"}
+2019-08-05 11:16:06:269 [W3C (c718cf95)] Calling AppiumDriver.findElements() with args: ["id","com.mobeta.android.demodslv:id/drag_handle","c718cf95-50ab-40b3-9f35-f711da7383dc"]
+2019-08-05 11:16:06:270 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-05 11:16:06:270 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-05 11:16:06:271 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobeta.android.demodslv:id/drag_handle","context":"","multiple":true}}
+2019-08-05 11:16:06:277 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobeta.android.demodslv:id/drag_handle","context":"","multiple":true}}
+2019-08-05 11:16:06:277 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:16:06:277 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:16:06:279 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.mobeta.android.demodslv:id/drag_handle' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:16:06:279 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:279 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:280 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:16:06:280 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:316 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2019-08-05 11:16:06:316 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:328 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (2)
+2019-08-05 11:16:06:328 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=2, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:337 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (3)
+2019-08-05 11:16:06:337 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=3, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:347 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (4)
+2019-08-05 11:16:06:347 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=4, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:356 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (5)
+2019-08-05 11:16:06:356 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=5, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:465 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (6)
+2019-08-05 11:16:06:465 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=6, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:479 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (7)
+2019-08-05 11:16:06:479 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=7, RESOURCE_ID=com.mobeta.android.demodslv:id/drag_handle]
+2019-08-05 11:16:06:537 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"13"},{"ELEMENT":"14"},{"ELEMENT":"15"},{"ELEMENT":"16"},{"ELEMENT":"17"},{"ELEMENT":"18"},{"ELEMENT":"19"}]}
+2019-08-05 11:16:06:542 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:16:06:544 [W3C (c718cf95)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"13","ELEMENT":"13"},{"element-6066-11e4-a52e-4f735466cecf":"14","ELEMENT":"14"},{"element-6066-11e4-a52e-4f735466cecf":"15","ELEMENT":"15"},{"element-6066-11e4-a52e-4f735466cecf":"16","ELEMENT":"16"},{"element-6066-11e4-a52e-4f735466cecf":"17","ELEMENT":"17"},{"element-6066-11e4-a52e-4f735466cecf":"18","ELEMENT":"18"},{"element-6066-11e4-a52e-4f735466cecf":"19","ELEMENT":"19"}]
+2019-08-05 11:16:06:545 [HTTP] <-- POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/elements 200 276 ms - 431
+2019-08-05 11:16:06:545 [HTTP] 
+2019-08-05 11:16:06:560 [HTTP] --> POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/touch/perform
+2019-08-05 11:16:06:560 [HTTP] {"actions":[{"action":"press","options":{"element":"6"}},{"action":"wait","options":{"ms":1000}},{"action":"moveTo","options":{"element":"16"}},{"action":"release","options":{}}]}
+2019-08-05 11:16:06:561 [W3C (c718cf95)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"element":"6"}},{"action":"wait","options":{"ms":1000}},{"action":"moveTo","options":{"element":"16"}},{"action":"release","options":{}}],"c718cf95-50ab-40b3-9f35-f711da7383dc"]
+2019-08-05 11:16:06:565 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"16"}}
+2019-08-05 11:16:06:566 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"16"}}
+2019-08-05 11:16:06:568 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:16:06:568 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+2019-08-05 11:16:06:583 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":10,"y":442}}
+2019-08-05 11:16:06:583 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:16:06:585 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getSize","params":{"elementId":"16"}}
+2019-08-05 11:16:06:588 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"16"}}
+2019-08-05 11:16:06:588 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:16:06:589 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+2019-08-05 11:16:06:601 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":99,"height":101}}
+2019-08-05 11:16:06:602 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:16:06:603 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"6"}}
+2019-08-05 11:16:06:608 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"6"}}
+2019-08-05 11:16:06:608 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:16:06:608 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+2019-08-05 11:16:06:635 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":10,"y":130}}
+2019-08-05 11:16:06:636 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:16:06:636 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:swipe","params":{"startX":0.5,"startY":0.5,"endX":49.5,"endY":362.5,"steps":28,"elementId":"6"}}
+2019-08-05 11:16:06:641 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:swipe","params":{"startX":0.5,"startY":0.5,"endX":49.5,"endY":362.5,"steps":28,"elementId":"6"}}
+2019-08-05 11:16:06:641 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:16:06:641 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
+2019-08-05 11:16:06:751 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element bounds: [10,130][109,231]
+2019-08-05 11:16:06:809 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element bounds: [10,130][109,231]
+2019-08-05 11:16:06:809 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=59.5, y=180.5] to [x=59.5, y=492.5] with steps: 28
+2019-08-05 11:16:07:326 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-08-05 11:16:07:326 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:16:07:327 [W3C (c718cf95)] Responding to client with driver.performTouch() result: true
+2019-08-05 11:16:07:327 [HTTP] <-- POST /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc/touch/perform 200 767 ms - 14
+2019-08-05 11:16:07:327 [HTTP] 
+2019-08-05 11:16:12:331 [HTTP] --> DELETE /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc
+2019-08-05 11:16:12:332 [HTTP] {}
+2019-08-05 11:16:12:332 [W3C (c718cf95)] Calling AppiumDriver.deleteSession() with args: ["c718cf95-50ab-40b3-9f35-f711da7383dc"]
+2019-08-05 11:16:12:333 [BaseDriver] Event 'quitSessionRequested' logged at 1565000172333 (11:16:12 GMT+0100 (GMT Summer Time))
+2019-08-05 11:16:12:335 [Appium] Removing session c718cf95-50ab-40b3-9f35-f711da7383dc from our master session list
+2019-08-05 11:16:12:336 [AndroidDriver] Shutting down Android driver
+2019-08-05 11:16:12:348 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell am force-stop com.mobeta.android.demodslv'
+2019-08-05 11:16:13:983 [ADB] Pressing the HOME button
+2019-08-05 11:16:13:983 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell input keyevent 3'
+2019-08-05 11:16:15:577 [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2019-08-05 11:16:15:586 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2019-08-05 11:16:15:586 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2019-08-05 11:16:15:586 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2019-08-05 11:16:15:587 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:16:15:588 [UiAutomator] Shutting down UiAutomator
+2019-08-05 11:16:15:588 [UiAutomator] Moving to state 'stopping'
+2019-08-05 11:16:15:596 [UiAutomator] UiAutomator shut down normally
+2019-08-05 11:16:15:596 [UiAutomator] Moving to state 'stopped'
+2019-08-05 11:16:15:597 [ADB] Attempting to kill all uiautomator processes
+2019-08-05 11:16:15:597 [ADB] Getting IDs of all 'uiautomator' processes
+2019-08-05 11:16:15:597 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell pgrep -f uiautomator'
+2019-08-05 11:16:15:716 [ADB] No 'uiautomator' process has been found
+2019-08-05 11:16:15:716 [UiAutomator] Moving to state 'stopped'
+2019-08-05 11:16:15:717 [Logcat] Stopping logcat capture
+2019-08-05 11:16:15:727 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell am force-stop io.appium.unlock'
+2019-08-05 11:16:17:159 [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2019-08-05 11:16:17:160 [BaseDriver] Event 'quitSessionFinished' logged at 1565000177160 (11:16:17 GMT+0100 (GMT Summer Time))
+2019-08-05 11:16:17:161 [W3C (c718cf95)] Received response: null
+2019-08-05 11:16:17:162 [W3C (c718cf95)] But deleting session, so not returning
+2019-08-05 11:16:17:162 [W3C (c718cf95)] Responding to client with driver.deleteSession() result: null
+2019-08-05 11:16:17:165 [HTTP] <-- DELETE /wd/hub/session/c718cf95-50ab-40b3-9f35-f711da7383dc 200 4832 ms - 14
+2019-08-05 11:16:17:166 [HTTP] 

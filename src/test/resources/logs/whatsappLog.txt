@@ -1,0 +1,458 @@
+2019-08-05 11:17:36:450 [Appium] Welcome to Appium v1.13.0
+2019-08-05 11:17:36:452 [Appium] Non-default server args:
+2019-08-05 11:17:36:453 [Appium]   logFile: C:\Users\EdwardKalu\appiumStuffs\AppiumTesting\src\test\resources\logs\whatsappLog.txt
+2019-08-05 11:17:36:453 [Appium]   localTimezone: true
+2019-08-05 11:17:36:510 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-08-05 11:17:36:572 [HTTP] --> GET /wd/hub/status
+2019-08-05 11:17:36:574 [HTTP] {}
+2019-08-05 11:17:36:578 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-08-05 11:17:36:580 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.13.0"}}
+2019-08-05 11:17:36:587 [HTTP] <-- GET /wd/hub/status 200 10 ms - 68
+2019-08-05 11:17:36:588 [HTTP] 
+2019-08-05 11:17:38:409 [HTTP] --> POST /wd/hub/session
+2019-08-05 11:17:38:409 [HTTP] {"desiredCapabilities":{"appActivity":".HomeActivity","appPackage":"com.gbwhatsapp","platformName":"Android","deviceName":"Android"},"capabilities":{"firstMatch":[{"appium:appActivity":".HomeActivity","appium:appPackage":"com.gbwhatsapp","appium:deviceName":"Android","platformName":"android"}]}}
+2019-08-05 11:17:38:410 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".HomeActivity","appPackage":"com.gbwhatsapp","platformName":"Android","deviceName":"Android"},null,{"firstMatch":[{"appium:appActivity":".HomeActivity","appium:appPackage":"com.gbwhatsapp","appium:deviceName":"Android","platformName":"android"}]}]
+2019-08-05 11:17:38:410 [BaseDriver] Event 'newSessionRequested' logged at 1565000258410 (11:17:38 GMT+0100 (GMT Summer Time))
+2019-08-05 11:17:38:418 [Appium] 
+2019-08-05 11:17:38:418 [Appium] ======================================================================
+2019-08-05 11:17:38:418 [Appium]   DEPRECATION WARNING:
+2019-08-05 11:17:38:418 [Appium] 
+2019-08-05 11:17:38:419 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-08-05 11:17:38:419 [Appium]   capabilities for this Android session
+2019-08-05 11:17:38:419 [Appium] 
+2019-08-05 11:17:38:419 [Appium]   Setting 'automationName=UiAutomator1' by default and using the 
+2019-08-05 11:17:38:419 [Appium]   UiAutomator1 Driver
+2019-08-05 11:17:38:419 [Appium] 
+2019-08-05 11:17:38:419 [Appium]   The next minor version of Appium (1.14.x) will set 
+2019-08-05 11:17:38:419 [Appium]   'automationName=UiAutomator2' by default and use the UiAutomator2 
+2019-08-05 11:17:38:419 [Appium]   Driver
+2019-08-05 11:17:38:420 [Appium] 
+2019-08-05 11:17:38:420 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-08-05 11:17:38:420 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-08-05 11:17:38:420 [Appium]   platforms
+2019-08-05 11:17:38:420 [Appium] 
+2019-08-05 11:17:38:421 [Appium]   If you are happy with 'UiAutomator1' and do not wish to upgrade 
+2019-08-05 11:17:38:421 [Appium]   Android drivers, please add 'automationName=UiAutomator1' to your 
+2019-08-05 11:17:38:421 [Appium]   desired capabilities
+2019-08-05 11:17:38:421 [Appium] 
+2019-08-05 11:17:38:421 [Appium]   For more information about drivers, please visit 
+2019-08-05 11:17:38:423 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-08-05 11:17:38:423 [Appium]   'Drivers' menu
+2019-08-05 11:17:38:423 [Appium] 
+2019-08-05 11:17:38:423 [Appium] ======================================================================
+2019-08-05 11:17:38:423 [Appium] 
+2019-08-05 11:17:38:423 [Appium] Setting automation to 'UiAutomator1'. 
+2019-08-05 11:17:38:720 [Appium] Appium v1.13.0 creating new AndroidDriver (v4.15.1) session
+2019-08-05 11:17:38:720 [Appium] Capabilities:
+2019-08-05 11:17:38:720 [Appium]   platformName: android
+2019-08-05 11:17:38:721 [Appium]   appActivity: .HomeActivity
+2019-08-05 11:17:38:721 [Appium]   appPackage: com.gbwhatsapp
+2019-08-05 11:17:38:721 [Appium]   deviceName: Android
+2019-08-05 11:17:38:727 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"appActivity":".HomeActivi... were provided
+2019-08-05 11:17:38:727 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-08-05 11:17:38:740 [BaseDriver] Session created with session id: a82d9be4-03c6-41be-9e33-a3b47217018b
+2019-08-05 11:17:38:777 [ADB] Found 1 'build-tools' folders under 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk' (newest first):
+2019-08-05 11:17:38:778 [ADB]     C:/Users/EdwardKalu/AppData/Local/Android/Sdk/build-tools/29.0.1
+2019-08-05 11:17:38:780 [ADB] Using 'adb.exe' from 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2019-08-05 11:17:38:780 [AndroidDriver] Retrieving device list
+2019-08-05 11:17:38:781 [ADB] Trying to find a connected android device
+2019-08-05 11:17:38:783 [ADB] Getting connected devices...
+2019-08-05 11:17:38:846 [ADB] 1 device(s) connected
+2019-08-05 11:17:38:846 [AndroidDriver] Using device: LGH340n731d6af9
+2019-08-05 11:17:38:848 [ADB] Using 'adb.exe' from 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2019-08-05 11:17:38:849 [ADB] Setting device id to LGH340n731d6af9
+2019-08-05 11:17:38:851 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell getprop ro.build.version.sdk'
+2019-08-05 11:17:38:970 [ADB] Current device property 'ro.build.version.sdk': 23
+2019-08-05 11:17:38:971 [ADB] Device API level: 23
+2019-08-05 11:17:38:972 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-08-05 11:17:38:972 [AndroidDriver] App file was not listed, instead we're going to run com.gbwhatsapp directly on the device
+2019-08-05 11:17:38:973 [AndroidDriver] Checking whether package is present on the device
+2019-08-05 11:17:38:974 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell pm list packages com.gbwhatsapp'
+2019-08-05 11:17:40:290 [AndroidDriver] Starting Android session
+2019-08-05 11:17:40:293 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 wait-for-device'
+2019-08-05 11:17:40:334 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell echo ping'
+2019-08-05 11:17:40:395 [AndroidDriver] Pushing settings apk to device...
+2019-08-05 11:17:40:396 [ADB] Getting install status for io.appium.settings
+2019-08-05 11:17:40:397 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys package io.appium.settings'
+2019-08-05 11:17:40:497 [ADB] 'io.appium.settings' is installed
+2019-08-05 11:17:40:498 [ADB] Getting package info for 'io.appium.settings'
+2019-08-05 11:17:40:498 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys package io.appium.settings'
+2019-08-05 11:17:40:608 [ADB] Using 'aapt.exe' from 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\build-tools\29.0.1\aapt.exe'
+2019-08-05 11:17:40:641 [ADB] The version code of the installed 'io.appium.settings' is greater than the application version code (18 > 17)
+2019-08-05 11:17:40:642 [ADB] There is no need to install/upgrade 'C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2019-08-05 11:17:40:643 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-08-05 11:17:40:644 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell 'pgrep --help; echo $?''
+2019-08-05 11:17:40:741 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell pgrep -f io\\.appium\\.settings'
+2019-08-05 11:17:40:857 [AndroidDriver] Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+2019-08-05 11:17:40:858 [ADB] Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+2019-08-05 11:17:40:859 [ADB] Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+2019-08-05 11:17:40:860 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+2019-08-05 11:17:44:338 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-08-05 11:17:46:320 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell appops set io.appium.settings android\:mock_location allow'
+2019-08-05 11:17:48:144 [Logcat] Starting logcat capture
+2019-08-05 11:17:48:292 [ADB] Getting device platform version
+2019-08-05 11:17:48:293 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell getprop ro.build.version.release'
+2019-08-05 11:17:48:396 [ADB] Current device property 'ro.build.version.release': 6.0
+2019-08-05 11:17:48:397 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell wm size'
+2019-08-05 11:17:50:279 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell getprop ro.product.model'
+2019-08-05 11:17:50:367 [ADB] Current device property 'ro.product.model': LG-H340n
+2019-08-05 11:17:50:369 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell getprop ro.product.manufacturer'
+2019-08-05 11:17:50:455 [ADB] Current device property 'ro.product.manufacturer': LGE
+2019-08-05 11:17:50:456 [AndroidDriver] No app sent in, not parsing package/activity
+2019-08-05 11:17:50:456 [AndroidDriver] No app capability. Assuming it is already on the device
+2019-08-05 11:17:50:457 [ADB] Getting install status for com.gbwhatsapp
+2019-08-05 11:17:50:457 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys package com.gbwhatsapp'
+2019-08-05 11:17:50:595 [ADB] 'com.gbwhatsapp' is installed
+2019-08-05 11:17:50:596 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell am force-stop com.gbwhatsapp'
+2019-08-05 11:17:52:137 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell pm clear com.gbwhatsapp'
+2019-08-05 11:17:53:635 [AndroidDriver] Performed fast reset on the installed 'com.gbwhatsapp' application (stop and clear)
+2019-08-05 11:17:53:636 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-08-05 11:17:53:637 [ADB] Forwarding system: 4724 to device: 4724
+2019-08-05 11:17:53:637 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 forward tcp\:4724 tcp\:4724'
+2019-08-05 11:17:53:677 [UiAutomator] Starting UiAutomator
+2019-08-05 11:17:53:677 [UiAutomator] Moving to state 'starting'
+2019-08-05 11:17:53:679 [UiAutomator] Parsing uiautomator jar
+2019-08-05 11:17:53:680 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-08-05 11:17:53:681 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell mkdir -p /data/local'
+2019-08-05 11:17:53:811 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 push C\:\\Users\\EdwardKalu\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-08-05 11:17:53:884 [ADB] Attempting to kill all uiautomator processes
+2019-08-05 11:17:53:886 [ADB] Getting IDs of all 'uiautomator' processes
+2019-08-05 11:17:53:886 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell pgrep -f uiautomator'
+2019-08-05 11:17:53:990 [ADB] No 'uiautomator' process has been found
+2019-08-05 11:17:53:991 [UiAutomator] Starting UIAutomator
+2019-08-05 11:17:53:992 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","LGH340n731d6af9","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.gbwhatsapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-08-05 11:17:55:811 [UiAutomator] Moving to state 'online'
+2019-08-05 11:17:55:815 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-08-05 11:17:55:816 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-08-05 11:17:55:820 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-08-05 11:17:55:822 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell dumpsys window'
+2019-08-05 11:17:55:831 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-08-05 11:17:55:937 [AndroidDriver] Screen already unlocked, doing nothing
+2019-08-05 11:17:55:938 [ADB] Running 'C:\Users\EdwardKalu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s LGH340n731d6af9 shell am start -W -n com.gbwhatsapp/.HomeActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-08-05 11:18:02:604 [Appium] New AndroidDriver session created successfully, session a82d9be4-03c6-41be-9e33-a3b47217018b added to master session list
+2019-08-05 11:18:02:606 [BaseDriver] Event 'newSessionStarted' logged at 1565000282606 (11:18:02 GMT+0100 (GMT Summer Time))
+2019-08-05 11:18:02:608 [W3C (a82d9be4)] Cached the protocol value 'W3C' for the new session a82d9be4-03c6-41be-9e33-a3b47217018b
+2019-08-05 11:18:02:609 [W3C (a82d9be4)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeActivity","appPackage":"com.gbwhatsapp","deviceName":"Android"},"platformName":"android","appActivity":".HomeActivity","appPackage":"com.gbwhatsapp","deviceName":"LGH340n731d6af9","deviceUDID":"LGH340n731d6af9","platformVersion":"6.0","deviceScreenSize":"480x854","deviceModel":"LG-H340n","deviceManufacturer":"LGE"}}
+2019-08-05 11:18:02:613 [HTTP] <-- POST /wd/hub/session 200 24201 ms - 645
+2019-08-05 11:18:02:614 [HTTP] 
+2019-08-05 11:18:02:701 [HTTP] --> GET /wd/hub/session/a82d9be4-03c6-41be-9e33-a3b47217018b
+2019-08-05 11:18:02:701 [HTTP] {}
+2019-08-05 11:18:02:702 [W3C (a82d9be4)] Calling AppiumDriver.getSession() with args: ["a82d9be4-03c6-41be-9e33-a3b47217018b"]
+2019-08-05 11:18:02:749 [W3C (a82d9be4)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeActivity","appPackage":"com.gbwhatsapp","deviceName":"Android"},"platformName":"android","appActivity":".HomeActivity","appPackage":"com.gbwhatsapp","deviceName":"LGH340n731d6af9","deviceUDID":"LGH340n731d6af9","platformVersion":"6.0","deviceScreenSize":"480x854","deviceModel":"LG-H340n","deviceManufacturer":"LGE"}
+2019-08-05 11:18:02:751 [HTTP] <-- GET /wd/hub/session/a82d9be4-03c6-41be-9e33-a3b47217018b 200 50 ms - 577
+2019-08-05 11:18:02:753 [HTTP] 
+2019-08-05 11:18:02:758 [HTTP] --> GET /wd/hub/session/a82d9be4-03c6-41be-9e33-a3b47217018b
+2019-08-05 11:18:02:758 [HTTP] {}
+2019-08-05 11:18:02:759 [W3C (a82d9be4)] Calling AppiumDriver.getSession() with args: ["a82d9be4-03c6-41be-9e33-a3b47217018b"]
+2019-08-05 11:18:02:762 [W3C (a82d9be4)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeActivity","appPackage":"com.gbwhatsapp","deviceName":"Android"},"platformName":"android","appActivity":".HomeActivity","appPackage":"com.gbwhatsapp","deviceName":"LGH340n731d6af9","deviceUDID":"LGH340n731d6af9","platformVersion":"6.0","deviceScreenSize":"480x854","deviceModel":"LG-H340n","deviceManufacturer":"LGE"}
+2019-08-05 11:18:02:764 [HTTP] <-- GET /wd/hub/session/a82d9be4-03c6-41be-9e33-a3b47217018b 200 5 ms - 577
+2019-08-05 11:18:02:765 [HTTP] 
+2019-08-05 11:18:02:775 [HTTP] --> POST /wd/hub/session/a82d9be4-03c6-41be-9e33-a3b47217018b/timeouts
+2019-08-05 11:18:02:775 [HTTP] {"implicit":10000}
+2019-08-05 11:18:02:778 [W3C (a82d9be4)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"a82d9be4-03c6-41be-9e33-a3b47217018b"]
+2019-08-05 11:18:02:781 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2019-08-05 11:18:02:782 [BaseDriver] Set implicit wait to 10000ms
+2019-08-05 11:18:02:783 [W3C (a82d9be4)] Responding to client with driver.timeouts() result: null
+2019-08-05 11:18:02:785 [HTTP] <-- POST /wd/hub/session/a82d9be4-03c6-41be-9e33-a3b47217018b/timeouts 200 8 ms - 14
+2019-08-05 11:18:02:785 [HTTP] 
+2019-08-05 11:18:02:793 [HTTP] --> POST /wd/hub/session/a82d9be4-03c6-41be-9e33-a3b47217018b/elements
+2019-08-05 11:18:02:794 [HTTP] {"using":"id","value":"com.gbwhatsapp:id/conversations_row_contact_name_holder"}
+2019-08-05 11:18:02:795 [W3C (a82d9be4)] Calling AppiumDriver.findElements() with args: ["id","com.gbwhatsapp:id/conversations_row_contact_name_holder","a82d9be4-03c6-41be-9e33-a3b47217018b"]
+2019-08-05 11:18:02:797 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-05 11:18:02:798 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-05 11:18:02:800 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:02:847 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:02:993 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:02:994 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:03:130 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:03:231 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:03:232 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:03:233 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:03:238 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:03:393 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:03:424 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:03:424 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:03:424 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:03:425 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:03:425 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:03:479 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:03:481 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:03:481 [BaseDriver] Waited for 683 ms so far
+2019-08-05 11:18:03:982 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:03:987 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:03:987 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:03:987 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:03:987 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:03:989 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:03:989 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:03:990 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:03:990 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:04:121 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:04:121 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:04:122 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:04:122 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:04:122 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:04:123 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:04:198 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:04:198 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:04:199 [BaseDriver] Waited for 1401 ms so far
+2019-08-05 11:18:04:700 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:04:705 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:04:706 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:04:706 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:04:706 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:04:707 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:04:707 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:04:707 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:04:708 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:04:754 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:04:754 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:04:754 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:04:755 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:04:755 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:04:755 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:04:810 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:04:811 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:04:811 [BaseDriver] Waited for 2013 ms so far
+2019-08-05 11:18:05:314 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:05:321 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:05:321 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:05:322 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:05:323 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:05:323 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:05:324 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:05:324 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:05:325 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:05:398 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:05:398 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:05:399 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:05:399 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:05:400 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:05:400 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:05:412 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:05:413 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:05:414 [BaseDriver] Waited for 2615 ms so far
+2019-08-05 11:18:05:914 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:05:920 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:05:921 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:05:921 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:05:922 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:05:923 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:05:923 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:05:923 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:05:924 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:06:180 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:06:181 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:06:181 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:06:181 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:06:182 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:06:182 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:06:496 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:06:497 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:06:497 [BaseDriver] Waited for 3699 ms so far
+2019-08-05 11:18:06:999 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:07:009 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:07:011 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:07:012 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:07:012 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:07:012 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:013 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:013 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:07:014 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:047 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:07:047 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:07:047 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:047 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:047 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:07:047 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:061 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:07:062 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:07:062 [BaseDriver] Waited for 4264 ms so far
+2019-08-05 11:18:07:564 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:07:571 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:07:572 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:07:572 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:07:572 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:07:573 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:573 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:574 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:07:575 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:663 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:07:665 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:07:666 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:666 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:667 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:07:667 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:07:793 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:07:794 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:07:795 [BaseDriver] Waited for 4997 ms so far
+2019-08-05 11:18:08:297 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:08:304 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:08:305 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:08:306 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:08:306 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:08:307 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:08:308 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:08:309 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:08:310 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:08:346 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:08:347 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:08:348 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:08:349 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:08:350 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:08:351 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:08:360 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:08:361 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:08:363 [BaseDriver] Waited for 5564 ms so far
+2019-08-05 11:18:08:865 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:08:873 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:08:873 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:08:874 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:08:874 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:08:874 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:08:875 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:08:875 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:08:875 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:08:997 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:08:997 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:08:998 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:08:998 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:08:999 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:08:999 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:09:429 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:09:430 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:09:431 [BaseDriver] Waited for 6633 ms so far
+2019-08-05 11:18:09:932 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:09:939 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:09:941 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:09:941 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:09:942 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:09:942 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:09:943 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:09:944 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:09:944 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:10:046 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:10:047 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:10:047 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:10:047 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:10:048 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:10:048 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:10:085 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:10:087 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:10:087 [BaseDriver] Waited for 7289 ms so far
+2019-08-05 11:18:10:589 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:10:595 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:10:596 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:10:597 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:10:598 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:10:598 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:10:599 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:10:600 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:10:601 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:10:795 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:10:796 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:10:796 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:10:796 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:10:797 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:10:797 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:10:828 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:10:828 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:10:829 [BaseDriver] Waited for 8031 ms so far
+2019-08-05 11:18:11:331 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:11:339 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:11:340 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:11:341 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:11:342 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:11:344 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:11:345 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:11:345 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:11:346 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:11:389 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:11:389 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:11:394 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:11:395 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:11:395 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:11:396 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:11:476 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:11:477 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:11:478 [BaseDriver] Waited for 8680 ms so far
+2019-08-05 11:18:11:980 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:11:989 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:11:990 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:11:991 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:11:992 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:11:993 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:11:994 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:11:994 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:11:995 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:12:015 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:12:016 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:12:016 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:12:017 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:12:018 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:12:018 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:12:138 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:12:141 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:12:142 [BaseDriver] Waited for 9343 ms so far
+2019-08-05 11:18:12:643 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:12:650 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:12:651 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:12:652 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:12:652 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:12:653 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:12:653 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:12:654 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:12:654 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:12:752 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:12:752 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:12:753 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:12:753 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:12:753 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:12:753 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:12:780 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:12:782 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:12:782 [BaseDriver] Waited for 9984 ms so far
+2019-08-05 11:18:13:283 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:13:295 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.gbwhatsapp:id/conversations_row_contact_name_holder","context":"","multiple":true}}
+2019-08-05 11:18:13:295 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-08-05 11:18:13:296 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-08-05 11:18:13:296 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:13:297 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:13:297 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:13:297 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:13:297 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:13:348 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-08-05 11:18:13:348 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.gbwhatsapp:id/conversations_row_contact_name_holder' using 'ID' with the contextId: '' multiple: true
+2019-08-05 11:18:13:349 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:13:349 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:13:350 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-08-05 11:18:13:350 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.gbwhatsapp:id/conversations_row_contact_name_holder]
+2019-08-05 11:18:13:487 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2019-08-05 11:18:13:492 [AndroidBootstrap] Received command result from bootstrap
+2019-08-05 11:18:13:493 [W3C (a82d9be4)] Responding to client with driver.findElements() result: []
+2019-08-05 11:18:13:495 [HTTP] <-- POST /wd/hub/session/a82d9be4-03c6-41be-9e33-a3b47217018b/elements 200 10702 ms - 12
+2019-08-05 11:18:13:496 [HTTP] 
+2019-08-05 11:18:37:313 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (internal/net.js:23:7)
+    at doWrite (_stream_writable.js:396:12)
+    at writeOrBuffer (_stream_writable.js:382:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:711:40)
+    at Console.log (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston-transport\index.js:102:17)
+    at doWrite (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:662:20)
+    at emitOne (events.js:121:20)
+    at DerivedLogger.emit (events.js:211:7)
+    at addChunk (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:297:12)
+    at readableAddChunk (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:11)
+    at DerivedLogger.Readable.push (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:240:10)
+    at DerivedLogger.Transform.push (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:405:139)
+    at writeOrBuffer (C:\Users\EdwardKalu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:394:5)
