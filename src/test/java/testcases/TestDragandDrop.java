@@ -39,7 +39,7 @@ public class TestDragandDrop {
 		
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		
-//		Device
+//		Device Android
 		
 		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,  "Android");
 		capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
